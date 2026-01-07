@@ -1,0 +1,40 @@
+# GitHub Pages Configuration for Literary Haven
+
+# Site settings
+title: Literary Haven
+description: Curated books for thoughtful readers
+baseurl: "" # Leave empty for root domain
+url: "https://yourusername.github.io" # Update with your GitHub Pages URL
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - LICENSE
+  - .gitignore
+  - node_modules
+  - vendor
+
+# Include specific files
+include:
+  - _redirects
+
+# SEO settings
+lang: en_US
+author: Literary Haven
+twitter:
+  username: literaryhaven
+social:
+  name: Literary Haven
+  links:
+    - https://twitter.com/literaryhaven
+    - https://facebook.com/literaryhaven
+
+# Analytics (uncomment and add your tracking ID)
+# google_analytics: UA-XXXXXXXXX-X

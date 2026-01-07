@@ -1,0 +1,27 @@
+# Robots.txt for Literary Haven Book Store
+# This file tells search engines which pages to crawl
+
+User-agent: *
+Allow: /
+
+# Allow all pages to be indexed
+Allow: /index.html
+Allow: /catalog.html
+Allow: /about.html
+Allow: /contact.html
+
+# Disallow checkout and cart (private user actions)
+Disallow: /checkout.html
+
+# Allow CSS and JavaScript
+Allow: /css/
+Allow: /js/
+
+# Allow images
+Allow: /images/
+
+# Sitemap location (update when you create a sitemap)
+Sitemap: https://yourusername.github.io/sitemap.xml
+
+# Crawl delay (optional, be polite to server)
+Crawl-delay: 1
