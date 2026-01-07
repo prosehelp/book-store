@@ -2,7 +2,9 @@
 
 # Site settings
 title: Literary Haven
-description: Curated books for thoughtful readers
+description: A curated bookstore offering paid legal guides, drafting templates, educational tools,
+  and learning resources for pro se litigants, legal professionals, and paralegal students.
+  All products are delivered after purchase; this site provides overviews only.
 baseurl: "" # Leave empty for root domain
 url: "https://yourusername.github.io" # Update with your GitHub Pages URL
 
